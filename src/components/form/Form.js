@@ -34,8 +34,9 @@ function Form(props) {
         autoComplete="off"
         value={name}
         onChange={handleChange}
+        data-testid = "add-task-field"
       />
-      <button type="submit" className="btn btn__primary btn__lg">
+      <button type="submit" data-testid = "add-task-btn" className="btn btn__primary btn__lg">
         Add
       </button>
     </form>
